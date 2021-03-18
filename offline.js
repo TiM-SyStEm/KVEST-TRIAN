@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1615638658,
+	"version": 1616071601,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -25,6 +25,9 @@
 		"images/person-sheet0.png",
 		"images/panel-sheet0.png",
 		"images/szdlogo-sheet0.png",
+		"images/sprite11-sheet0.png",
+		"images/sprite12-sheet0.png",
+		"images/sprite13-sheet0.png",
 		"media/dictor.ogg",
 		"media/menu_audio.ogg",
 		"media/a1.ogg",

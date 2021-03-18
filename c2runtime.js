@@ -22793,9 +22793,9 @@ cr.behaviors.Pathfinding = function(runtime)
 cr.getObjectRefTable = function () { return [
 	cr.plugins_.Audio,
 	cr.plugins_.Button,
-	cr.plugins_.TextBox,
 	cr.plugins_.Touch,
 	cr.plugins_.Text,
+	cr.plugins_.TextBox,
 	cr.plugins_.Sprite,
 	cr.behaviors.Pathfinding,
 	cr.plugins_.Touch.prototype.cnds.OnTouchObject,
