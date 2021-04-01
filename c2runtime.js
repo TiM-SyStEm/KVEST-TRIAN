@@ -10267,7 +10267,7 @@ window["cr_setSuspended"] = function(s)
 			this.is_else_block = (this.conditions[0].type == null && this.conditions[0].func == cr.system_object.prototype.cnds.Else);
 		}
 	};
-	window["_c2hh_"] = "2BED1C0D7AE27D743B4CB27355D0E5DC920C499C";
+	window["_c2hh_"] = "3F956799EDE3B48C324AC330785BD174E6ABA6ED";
 	EventBlock.prototype.postInit = function (hasElse/*, prevBlock_*/)
 	{
 		var i, len;
@@ -22793,22 +22793,23 @@ cr.behaviors.Pathfinding = function(runtime)
 cr.getObjectRefTable = function () { return [
 	cr.plugins_.Audio,
 	cr.plugins_.Button,
+	cr.plugins_.Sprite,
+	cr.plugins_.TextBox,
 	cr.plugins_.Touch,
 	cr.plugins_.Text,
-	cr.plugins_.TextBox,
-	cr.plugins_.Sprite,
 	cr.behaviors.Pathfinding,
 	cr.plugins_.Touch.prototype.cnds.OnTouchObject,
 	cr.system_object.prototype.acts.GoToLayout,
-	cr.plugins_.Audio.prototype.acts.Play,
-	cr.system_object.prototype.acts.SetVar,
-	cr.plugins_.Audio.prototype.cnds.IsTagPlaying,
+	cr.system_object.prototype.cnds.Every,
 	cr.system_object.prototype.cnds.CompareVar,
-	cr.plugins_.Sprite.prototype.acts.Destroy,
 	cr.plugins_.Sprite.prototype.acts.SetPos,
-	cr.system_object.prototype.acts.AddVar,
 	cr.system_object.prototype.acts.Wait,
+	cr.system_object.prototype.acts.SetVar,
+	cr.system_object.prototype.acts.AddVar,
 	cr.system_object.prototype.cnds.OnLayoutStart,
+	cr.plugins_.Audio.prototype.acts.Play,
+	cr.plugins_.Audio.prototype.cnds.IsTagPlaying,
+	cr.plugins_.Sprite.prototype.acts.Destroy,
 	cr.behaviors.Pathfinding.prototype.acts.SetSpeed,
 	cr.behaviors.Pathfinding.prototype.acts.FindPath,
 	cr.plugins_.Sprite.prototype.exps.X,
